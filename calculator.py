@@ -15,6 +15,7 @@ def sub(a, b)
     return a - b
 
 def mul(a, b)
+    a=a
     return a * b
 
 def div(a, b)
