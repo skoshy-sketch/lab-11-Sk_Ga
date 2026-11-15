@@ -25,8 +25,10 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
+def mul(a, b)
 
 def multiply(a, b):
+>>>>>>> d20d4d5eea35817d9e66f550116c8934b21d7482
     return a * b
 
 
