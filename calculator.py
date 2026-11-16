@@ -5,7 +5,9 @@ calculator.py
 One function per operation, in order.
 """
 # First example
-
+# https://github.com/skoshy-sketch/lab-11-Sk_Ga
+# Partner 1: Sam Koshy
+# Partner 2: Gisele Amaral
 import math
 
 def square_root(a):

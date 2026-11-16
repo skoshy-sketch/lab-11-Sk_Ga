@@ -1,8 +1,12 @@
+# https://github.com/skoshy-sketch/lab-11-Sk_Ga
+# Partner 1: Sam Koshy
+# Partner 2: Gisele Amaral
+
 import unittest
 from calculator import *
 
 class TestCalculator(unittest.TestCase):
-    ######### Partner 2
+    ######### Partner 2- Gisele Amaral
     def test_add(self): # 3 assertions
          calc = Calculator()
          self.assertEqual(calc.add(2, 3), 5)
@@ -15,7 +19,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(calc.subtract(10, 5), 5)
         self.assertEqual(calc.subtract(2, 5), -3)
 
-    ######## Partner 1
+    ######## Partner 1- Sam Koshy
     # def test_multiply(self): # 3 assertions
     #     fill in code
 
@@ -32,7 +36,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(divide(-2, 10), -5)
         self.assertAlmostEqual(divide(3, 10), 10 / 3)
 
-    ######## Partner 2
+    ######## Partner 2- Gisele
     def test_divide_by_zero(self): # 1 assertion
         with self.assertRaises(ZeroDivisionError):
         div(0, 5)
@@ -46,7 +50,7 @@ class TestCalculator(unittest.TestCase):
         with self.assertRaises(ValueError):
         log(10, 1)
     
-    ######## Partner 1
+    ######## Partner 1- Sam Koshy
     # def test_log_invalid_argument(self): # 1 assertion
     #     # call log function inside, example:
     #     # with self.assertRaises(<INSERT_ERROR_TYPE>):
